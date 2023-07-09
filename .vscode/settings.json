@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.showRulerCoverage": true,
+    "coverage-gutters.coverageBaseDir": "**",
+    "coverage-gutters.coverageFileNames": [
+        "coverage.xml"
+    ],
+    "coverage-gutters.coverageReportFileName": "coverage/**/index.html"
+}
