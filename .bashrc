@@ -36,3 +36,4 @@ alias egrep='egrep --color=auto'
 
 alias gs='git status'
 alias gl='git log -n 2'
+alias gb='git_branch'
