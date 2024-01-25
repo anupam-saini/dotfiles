@@ -20,7 +20,7 @@ F_DARK_RED='38;2;190;80;70'
 F_WHITE='38;2;171;178;191'
 F_YELLOW='38;2;229;192;123'
     
-export PS1='\[\e[${F_BLUE}m[\D{%m-%d %H:%M.%S}] \e[${F_PURPLE}m\u@spaces\e[${F_WHITE}m:\e[${F_GREEN}m\w\e[${F_WHITE}m $(git_branch)\]\n$ \[\e[0m\]'
+export PS1='\[\e[${F_BLUE}m[\D{%m-%d %H:%M.%S}] \e[${F_PURPLE}m\u@spaces\e[${F_WHITE}m:\e[${F_GREEN}m\w\e[${F_WHITE}m $(git branch)\]\n$ \[\e[0m\]'
 
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
