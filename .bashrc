@@ -34,7 +34,11 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-alias gs='git status'
-alias gl='git log -n 2'
 alias gb='git_branch'
+alias gc='git checkout'
 alias gd='git diff'
+alias gl='git log -n 2'
+alias gs='git status'
+
+# completions
+source /usr/share/bash-completion/completions/git
