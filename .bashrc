@@ -20,10 +20,6 @@ F_DARK_RED='38;2;190;80;70'
 F_WHITE='38;2;171;178;191'
 F_YELLOW='38;2;229;192;123'
     
-function git_branch {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/[\1]/'
-}
-    
 export PS1='\[\e[${F_BLUE}m[\D{%m-%d %H:%M.%S}] \e[${F_PURPLE}m\u@spaces\e[${F_WHITE}m:\e[${F_GREEN}m\w\e[${F_WHITE}m $(git_branch)\]\n$ \[\e[0m\]'
 
 alias ls='ls --color=auto'
@@ -34,7 +30,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-alias gb='git_branch'
+alias gb='git branch'
 alias gc='git checkout'
 alias gd='git diff'
 alias gl='git log -n 2'
