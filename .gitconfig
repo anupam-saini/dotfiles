@@ -102,5 +102,5 @@
     # Show the user email for the current repository.
     whoami = config user.email
 [user]
-	email = 4581797+anupam-saini@users.noreply.github.com
-	name = Anupam Saini
+    email = 4581797+anupam-saini@users.noreply.github.com
+    name = Anupam Saini
